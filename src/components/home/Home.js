@@ -7,7 +7,7 @@ import ScrollDown from './ScrollDown'
 const Home = () => {
   return (
     <main className='main'>
-    <section className="home">
+    <section className="home" id="home">
         <div className="container home__container grid">
             <div className="home__content grid">
                 <Social /> 

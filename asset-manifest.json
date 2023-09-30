@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3555f445.css",
-    "main.js": "/portfolio/static/js/main.8c9d0038.js",
+    "main.js": "/portfolio/static/js/main.449463b9.js",
     "static/media/Sveta Tyo CV.pdf": "/portfolio/static/media/Sveta Tyo CV.6237681ac6b10e973cdb.pdf",
     "index.html": "/portfolio/index.html",
     "main.3555f445.css.map": "/portfolio/static/css/main.3555f445.css.map",
-    "main.8c9d0038.js.map": "/portfolio/static/js/main.8c9d0038.js.map"
+    "main.449463b9.js.map": "/portfolio/static/js/main.449463b9.js.map"
   },
   "entrypoints": [
     "static/css/main.3555f445.css",
-    "static/js/main.8c9d0038.js"
+    "static/js/main.449463b9.js"
   ]
 }

@@ -6,13 +6,14 @@ import Backend from './Backend'
 const Skills = () => {
   return (
     <section className="skills section" id='skills'>
-        <h2 className="section__title">Skills</h2>
-        <span className="section__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+        <h2 className="section__title">12 октября 2024 года</h2>
+        {/* <span className="section__subtitle">Приглашаем Вас на первый праздник нашей дочери!</span> */}
 
-        <div className="skills__container container grid">
-            <Frontend/>
-            <Backend/>
-        </div>
+        <p className='section__title'>Будем рады разделить с вами этот замечательный день!<br/>
+          Наше мероприятия состоится в ресторане <br/>
+
+          Ждем вас!
+        </p>
     </section>
   )
 }

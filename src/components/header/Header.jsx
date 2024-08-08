@@ -8,27 +8,27 @@ const Header = () => {
   return (
     <header className="header">
         <div className=" nav container">
-            <a href='#home' className='nav__logo'>Portfolio</a>
+            <a href='#home' className='nav__logo'>Miya's party!</a>
             <div className={Toggle ? "nav__menu show-menu": "nav__menu"}>
                 <ul className="nav__list grid">
                     <li className="nav__item">
                         <a href='#' className='nav__link'>
-                            <i class="uil uil-estate nav__icon"></i>Home
+                            <i class="uil uil-estate nav__icon"></i>Главная
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href='#skills ' className='nav__link'>
-                            <i class="uil uil-file-alt nav__icon"></i>Skills 
+                            <i class="uil uil-file-alt nav__icon"></i>Где 
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href='#qualification' className='nav__link'>
-                            <i class="uil uil-scenery nav__icon"></i>Qualification 
+                            <i class="uil uil-scenery nav__icon"></i>Программа 
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href='#contact' className='nav__link'>
-                            <i class="uil uil-message  nav__icon"></i>Contact 
+                            <i class="uil uil-message  nav__icon"></i>Анкета 
                         </a>
                     </li>
                 </ul>

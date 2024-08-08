@@ -14,7 +14,7 @@ function App() {
       <main className='main'>
         <Home />
         <Skills />
-        <Qualification/>
+        {/* <Qualification/> */}
         <Contact/>
       </main>
     </div>

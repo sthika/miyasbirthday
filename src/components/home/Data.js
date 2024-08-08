@@ -4,13 +4,13 @@ import CV from '../../assets/Sveta Tyo CV.pdf';
 const Data = () => {
   return (
     <div className='home__data'>
-      <h1 className='home__title'>Tyo Sveta</h1>
-      <h3 className='home__subtitle'>Frontend dev</h3>
+      <h1 className='home__title'>Приглашаем Вас</h1>
+      <h3 className='home__subtitle'>на годик Миен</h3>
       <p className='home__desc'>
-      25 y.o. / Bishkek
+      12.10.2024 / Asan-si
       </p>
-      <a download='' href={CV} className='button button--flex'>
-            Download CV
+      {/* <a download='' href={CV} className='button button--flex'>
+            Download ??
             <svg
               class='button__icon'
               xmlns='http://www.w3.org/2000/svg'
@@ -31,7 +31,7 @@ const Data = () => {
                 d='M11.25 17.7502H7.25C6.84 17.7502 6.5 17.4102 6.5 17.0002C6.5 16.5902 6.84 16.2502 7.25 16.2502H11.25C11.66 16.2502 12 16.5902 12 17.0002C12 17.4102 11.66 17.7502 11.25 17.7502Z'
                 fill='var(--container-color)'></path>
             </svg>
-          </a>
+          </a> */}
     </div>
   );
 };

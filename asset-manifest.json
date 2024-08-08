@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3555f445.css",
-    "main.js": "/portfolio/static/js/main.449463b9.js",
-    "static/media/Sveta Tyo CV.pdf": "/portfolio/static/media/Sveta Tyo CV.6237681ac6b10e973cdb.pdf",
-    "index.html": "/portfolio/index.html",
-    "main.3555f445.css.map": "/portfolio/static/css/main.3555f445.css.map",
-    "main.449463b9.js.map": "/portfolio/static/js/main.449463b9.js.map"
+    "main.css": "/birthday/static/css/main.71ddc28a.css",
+    "main.js": "/birthday/static/js/main.35976b25.js",
+    "static/media/telegram-cloud-photo-size-5--y.jpg": "/birthday/static/media/telegram-cloud-photo-size-5-6109497142570761879-y.209999cced5cbe964022.jpg",
+    "static/media/Sveta Tyo CV.pdf": "/birthday/static/media/Sveta Tyo CV.6237681ac6b10e973cdb.pdf",
+    "index.html": "/birthday/index.html",
+    "main.71ddc28a.css.map": "/birthday/static/css/main.71ddc28a.css.map",
+    "main.35976b25.js.map": "/birthday/static/js/main.35976b25.js.map"
   },
   "entrypoints": [
-    "static/css/main.3555f445.css",
-    "static/js/main.449463b9.js"
+    "static/css/main.71ddc28a.css",
+    "static/js/main.35976b25.js"
   ]
 }

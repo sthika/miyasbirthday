@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/miyasbirthday/static/css/main.dc1b3eab.css",
-    "main.js": "/miyasbirthday/static/js/main.5e5464ee.js",
+    "main.css": "/miyasbirthday/static/css/main.ba7953f7.css",
+    "main.js": "/miyasbirthday/static/js/main.c6956143.js",
     "static/media/timerfinal.png": "/miyasbirthday/static/media/timerfinal.a190032e033b31a94a64.png",
     "static/media/telegram-cloud-photo-size-5--y.jpg": "/miyasbirthday/static/media/telegram-cloud-photo-size-5-6109497142570761879-y.209999cced5cbe964022.jpg",
     "static/media/Sveta Tyo CV.pdf": "/miyasbirthday/static/media/Sveta Tyo CV.6237681ac6b10e973cdb.pdf",
     "index.html": "/miyasbirthday/index.html",
-    "main.dc1b3eab.css.map": "/miyasbirthday/static/css/main.dc1b3eab.css.map",
-    "main.5e5464ee.js.map": "/miyasbirthday/static/js/main.5e5464ee.js.map"
+    "main.ba7953f7.css.map": "/miyasbirthday/static/css/main.ba7953f7.css.map",
+    "main.c6956143.js.map": "/miyasbirthday/static/js/main.c6956143.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc1b3eab.css",
-    "static/js/main.5e5464ee.js"
+    "static/css/main.ba7953f7.css",
+    "static/js/main.c6956143.js"
   ]
 }

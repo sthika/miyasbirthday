@@ -213,9 +213,9 @@ img {
   :root {
     --big-font-size: 3.5rem;
     --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 2.25rem;
-    --normal-font-size: 1.9rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.9rem;
+    --normal-font-size: 1.8rem;
     --small-font-size: 1.675rem;
     --smaller-font-size: 1.213rem;
     --tiny-font-size: 1.625rem;

@@ -3,6 +3,10 @@
     column-gap: 3rem;
     justify-content: center;
 }
+.skills {
+    background-color: rgb(234 217 184);
+    color: #642703;
+}
 .skills__content {
     background-color: var(--container-colo);
     border: 1px solid rgba(0, 0, 0, 0.1);

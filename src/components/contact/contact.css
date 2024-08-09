@@ -110,6 +110,12 @@
 .contact__form-area textarea {
     resize: none;
 }
+.contact__form-label {
+    /* font-family: monospace; */
+    color: rgb(73, 69, 69);
+    /* font-size: 20px;
+    letter-spacing: 0cap; */
+}
 
 @media screen and (max-width: 992px) {
     .contact__container {

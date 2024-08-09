@@ -23,12 +23,12 @@ const Contact = () => {
       <div className='contact__container container grid'>
         <div className='contact__content'>
           <div className='contact__info'>
-            <div className='contact__card'>
+            {/* <div className='contact__card'>
               <i className='bx bx-mail-send contact__card-icon'></i>
 
               <h3 className='contact__card-title'>Южная Корея</h3>
               <span className='contact__card-data'>г. Асан</span>
-            </div>
+            </div> */}
 
             <div className='contact__card'>
               <i className='bx bx-message contact__card-icon'></i>

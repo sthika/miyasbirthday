@@ -7,10 +7,9 @@ const Skills = () => {
   return (
     <section className='skills section' id='skills'>
       {/* <h2 className="section__title">12 октября 2024 года</h2> */}
-      <br />
       {/* <span className="section__subtitle">Приглашаем Вас на первый праздник нашей дочери!</span> */}
 
-      <p className='section__title'>
+      <p className='section__subtitle'>
         Годик будет нашей зайке!
         <br />
         Приглашаем вас прийти,

@@ -12,10 +12,10 @@
   --hue: 0;
   --sat: 0%;
   --inactive-color: hsl(var(--hue), var(--sat), 50%);
-  --title-color:  hsl(0deg 75.19% 65.56%);
+  --title-color:  #ba5e28;
   --title-color-dark:   hsl(0deg 75.19% 65.56%);
   --title-color-dark: hsl(0deg 75.19% 65.56%);
-  --text-color:  hsl(0deg 75.19% 65.56%);
+  --text-color:  #d36c2f;
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/miyasbirthday/static/css/main.79be1e79.css",
-    "main.js": "/miyasbirthday/static/js/main.94ccc719.js",
+    "main.css": "/miyasbirthday/static/css/main.da600cfd.css",
+    "main.js": "/miyasbirthday/static/js/main.7015afa9.js",
     "static/media/telegram-cloud-photo-size-5--y.jpg": "/miyasbirthday/static/media/telegram-cloud-photo-size-5-6109497142570761879-y.209999cced5cbe964022.jpg",
     "static/media/Sveta Tyo CV.pdf": "/miyasbirthday/static/media/Sveta Tyo CV.6237681ac6b10e973cdb.pdf",
     "index.html": "/miyasbirthday/index.html",
-    "main.79be1e79.css.map": "/miyasbirthday/static/css/main.79be1e79.css.map",
-    "main.94ccc719.js.map": "/miyasbirthday/static/js/main.94ccc719.js.map"
+    "main.da600cfd.css.map": "/miyasbirthday/static/css/main.da600cfd.css.map",
+    "main.7015afa9.js.map": "/miyasbirthday/static/js/main.7015afa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.79be1e79.css",
-    "static/js/main.94ccc719.js"
+    "static/css/main.da600cfd.css",
+    "static/js/main.7015afa9.js"
   ]
 }

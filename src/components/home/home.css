@@ -156,6 +156,9 @@
 
   }
   @media screen and (max-width: 768px) {
+    .home {
+        height: 90vh;
+    }
 .home__content {    
     display: flex;
     flex-direction: column;
@@ -182,6 +185,7 @@
     .home__container {
         padding: 0 15px;
         margin: 0;
+        height: 90vh;
     }
     .home__social {
         display: none;

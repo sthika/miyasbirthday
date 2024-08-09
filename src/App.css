@@ -199,7 +199,8 @@ img {
     margin: 0 0 var(--header-height) 0;
   }
 
-  .section {
+  .section,
+  .main {
     padding: 2rem 0 4rem;
   }
 

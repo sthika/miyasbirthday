@@ -42,22 +42,22 @@ const Contact = () => {
         <div className='contact__content'>
           <form ref={form} onSubmit={sendEmail} className='contact__form'>
             <div className='contact__form-wrap'>
-              <label className='contact__form-tag'>Имя</label>
+              <label className='contact__form-tag'>ФИО</label>
               <input
                 type='text'
                 name='name'
                 className='contact__form-input'
-                placeholder='Имя'
+                placeholder='ФИО'
               />
             </div>
 
             <div className='contact__form-wrap'>
-              <label className='contact__form-tag'>E-mail</label>
+              <label className='contact__form-tag'>Кол-во человек:</label>
               <input
-                type='email'
-                name='email'
+                type='number'
+                name='number'
                 className='contact__form-input'
-                placeholder='Электронная почта'
+                placeholder='Кол-во взрослых и детей'
               />
             </div>
             <div className='contact__form-wrap contact__form-wrap-check contact__form-area'>

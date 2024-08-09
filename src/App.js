@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Skills from './components/skills/Skills';
 import Qualification from './components/qualification/Qualification';
 import Contact from './components/contact/Contact';
+import Countdown from './components/Countdown/Countdown';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <Skills />
         {/* <Qualification/> */}
+        <Countdown/>
         <Contact/>
       </main>
     </div>

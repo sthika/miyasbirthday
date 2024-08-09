@@ -5,7 +5,7 @@ const Data = () => {
   return (
     <div className='home__data'>
       <h1 className='home__title'>Приглашаем Вас</h1>
-      <h3 className='home__subtitle'>на годик Миен</h3>
+      <h3 className='home__subtitle'>на годик Миëн</h3>
       <p className='home__desc'>
       12.10.2024 / Asan-si
       </p>

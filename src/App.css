@@ -16,7 +16,7 @@
   --title-color-dark:   hsl(0deg 75.19% 65.56%);
   --title-color-dark: hsl(0deg 75.19% 65.56%);
   --text-color:  #d95b51;
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: hsl(41, 81%, 92%);
   --container-color: #fff;
 
   /*========== Font and typography ==========*/

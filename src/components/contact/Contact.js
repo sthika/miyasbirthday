@@ -1,21 +1,43 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
 import './contact.css';
 
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const botToken = '7472056093:AAFpf5Q-I0bEnYxFse5HWGownIM_K0nj-w4';
+  const chatId = '892885189'; // Замените на ваш чат ID
+
+  const sendToTelegram = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      'service_6mqpzom',
-      'template_9bgtb9n',
-      form.current,
-      'kRxrxk0wHVFQjoTFE'
-    );
-    e.target.reset();
+    const message = `
+      ФИО: ${form.current.name.value}\n
+      Кол-во человек: ${form.current.number.value}\n
+      Посещение: ${form.current.attendance.value}
+    `;
+
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text: message,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log('Успех:', data);
+        alert('Сообщение отправлено!');
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.error('Ошибка:', error);
+        alert('Ошибка отправки сообщения.');
+      });
   };
+
   return (
     <section className='contact section' id='contact'>
       <h2 className='section__title'>Заполните анкету</h2>
@@ -23,24 +45,18 @@ const Contact = () => {
       <div className='contact__container container grid'>
         <div className='contact__content'>
           <div className='contact__info'>
-            {/* <div className='contact__card'>
-              <i className='bx bx-mail-send contact__card-icon'></i>
-
-              <h3 className='contact__card-title'>Южная Корея</h3>
-              <span className='contact__card-data'>г. Асан</span>
-            </div> */}
-
-            <div className='contact__card'>
+            <div className='contact__card' id='contact__card'>
               <i className='bx bx-message contact__card-icon'></i>
-
-              <h3 className='contact__card-title'>Ресторан</h3>
-              <span className='contact__card-data'>адрес ресторана</span>
+              <h3 className='contact__card-title'>Ресторан KINGDOM</h3>
+              <span className='contact__card-data'>
+                충남 아산시 신창면 행목리 220-2 상가
+              </span>
             </div>
           </div>
         </div>
 
         <div className='contact__content'>
-          <form ref={form} onSubmit={sendEmail} className='contact__form'>
+          <form ref={form} onSubmit={sendToTelegram} className='contact__form'>
             <div className='contact__form-wrap'>
               <label className='contact__form-tag'>ФИО</label>
               <input
@@ -48,6 +64,7 @@ const Contact = () => {
                 name='name'
                 className='contact__form-input'
                 placeholder='ФИО'
+                required
               />
             </div>
 
@@ -58,6 +75,7 @@ const Contact = () => {
                 name='number'
                 className='contact__form-input'
                 placeholder='Кол-во взрослых и детей'
+                required
               />
             </div>
             <div className='contact__form-wrap contact__form-wrap-check contact__form-area'>
@@ -88,7 +106,7 @@ const Contact = () => {
             <button href='#contact' className='button button--flex'>
               Отправить сообщение
               <svg
-                class='button__icon'
+                className='button__icon'
                 xmlns='http://www.w3.org/2000/svg'
                 width='24'
                 height='24'

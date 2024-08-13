@@ -7,7 +7,7 @@ const Data = () => {
       <h1 className='home__title'>Приглашаем Вас</h1>
       <h3 className='home__subtitle'>на годик Ким Миëн</h3>
       <p className='home__desc'>
-      12.10.2024 
+      12.10.2024 <br/> 17:00
       <br></br>220-2 Haengmok-ri, Sinchang-myeon
       </p>
       {/* <a download='' href={CV} className='button button--flex'>

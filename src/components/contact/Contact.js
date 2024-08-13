@@ -46,10 +46,10 @@ const Contact = () => {
         <div className='contact__content'>
           <div className='contact__info'>
             <div className='contact__card' id='contact__card'>
-              <i className='bx bx-message contact__card-icon'></i>
               <h3 className='contact__card-title'>Ресторан KINGDOM</h3>
               <span className='contact__card-data'>
                 충남 아산시 신창면 행목리 220-2 상가
+                <br /> в 17:00
               </span>
             </div>
           </div>

@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/miyasbirthday/static/css/main.4bb53ceb.css",
-    "main.js": "/miyasbirthday/static/js/main.680d4e84.js",
+    "main.js": "/miyasbirthday/static/js/main.67b69e99.js",
     "static/media/timerfinal.png": "/miyasbirthday/static/media/timerfinal.a190032e033b31a94a64.png",
     "static/media/telegram-cloud-photo-size-5--y.jpg": "/miyasbirthday/static/media/telegram-cloud-photo-size-5-6109497142570761879-y.209999cced5cbe964022.jpg",
     "static/media/Sveta Tyo CV.pdf": "/miyasbirthday/static/media/Sveta Tyo CV.6237681ac6b10e973cdb.pdf",
     "index.html": "/miyasbirthday/index.html",
     "main.4bb53ceb.css.map": "/miyasbirthday/static/css/main.4bb53ceb.css.map",
-    "main.680d4e84.js.map": "/miyasbirthday/static/js/main.680d4e84.js.map"
+    "main.67b69e99.js.map": "/miyasbirthday/static/js/main.67b69e99.js.map"
   },
   "entrypoints": [
     "static/css/main.4bb53ceb.css",
-    "static/js/main.680d4e84.js"
+    "static/js/main.67b69e99.js"
   ]
 }
